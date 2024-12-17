@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./build", // Output .js files to the 'build' folder
+        "rootDir": "./src", // Keep the source files in 'src'
+        "target": "ES5", // Compile to ES5 (or ES6, depending on your needs)
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "jsx": "react", // Important for React JSX
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*" // Include all files in the 'src' directory
+    ],
+    "exclude": [
+        "node_modules" // Exclude the node_modules directory
+    ]
+}
